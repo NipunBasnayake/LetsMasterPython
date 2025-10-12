@@ -26,3 +26,10 @@ cordinates = (10, 20)
 print(cordinates[0])           # 10
 print(cordinates[1])           # 20
 
+is_python_fun = True
+is_learning = False
+print(is_python_fun)               # True
+print(is_learning)                # False
+print(not is_python_fun)            # False
+print(is_python_fun and is_learning)  # False
+print(is_python_fun or is_learning)   # True
