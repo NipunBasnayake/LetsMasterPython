@@ -18,4 +18,11 @@ name = "Alice"
 full_greeting = greeting + ", " + name + "!"
 print(full_greeting)           # Hello, Alice!
 
-    
+fruits = ["apple", "banana", "cherry"]
+fruits.append("grape")
+print(fruits)                  # ['apple', 'banana', 'cherry', 'grape']
+
+cordinates = (10, 20)
+print(cordinates[0])           # 10
+print(cordinates[1])           # 20
+
