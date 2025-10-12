@@ -8,3 +8,14 @@ print (type(floating_point))    # <class 'float'>
 print (type(text))              # <class 'str'>
 print (type(boolean))           # <class 'bool'>
 
+integer_number = 10
+float_number = 5.5
+result = integer_number + float_number
+print(result)                  # 15.5
+
+greeting = "Hello"
+name = "Alice"
+full_greeting = greeting + ", " + name + "!"
+print(full_greeting)           # Hello, Alice!
+
+    
