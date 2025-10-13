@@ -45,3 +45,17 @@ counter *= 3
 counter /= 2
 
 print("Counter: ", counter)
+
+# ------------ Bitwise Operators ------------
+n = 5
+m = 3
+
+bitwise_and = n & m
+bitwise_or = n | m
+bitwise_xor = n ^ m
+bitwise_not_a = ~ a
+
+print("bitwise_and: ", bitwise_and)
+print("bitwise_or: ", bitwise_or)
+print("bitwise_xor: ", bitwise_xor)
+print("bitwise_not_a: ", bitwise_not_a)
