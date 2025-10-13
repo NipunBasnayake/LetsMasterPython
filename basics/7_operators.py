@@ -12,3 +12,13 @@ print("subtraction: ", subtraction)
 print("multiplication: ", multiplication)
 print("division: ", division)
 print("modulo: ", modulo)
+
+# ------------ Comparison Operators ------------
+x = 10
+y = 20
+
+equal_to = x == y
+not_equal_to = x != y
+
+print("equal_to: ", equal_to)
+print("not_equal_to", not_equal_to)
