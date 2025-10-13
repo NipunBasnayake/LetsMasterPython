@@ -36,3 +36,12 @@ print("logical_and: ", logical_and)
 print("logical_or: ", logical_or)
 print("logical_not: ", logical_not)
 
+# ------------ Assignment Operators ------------
+counter = 5
+
+counter += 2
+counter -= 1
+counter *= 3
+counter /= 2
+
+print("Counter: ", counter)
