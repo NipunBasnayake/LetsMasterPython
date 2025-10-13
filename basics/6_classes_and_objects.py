@@ -1,15 +1,14 @@
 class Dog:
     species = "Canis familiaris"  # Class attribute
 
-    def __init__ (self, name, age):
+    def __init__(self, name, age):
         self.name = name  # Instance attribute
-        self.age = age    # Instance attribute
+        self.age = age  # Instance attribute
 
         def bark(self):
             print("woof!")
 
-            my_dog = Dog(name = "Buddy", age = 3)
-            
+            my_dog = Dog(name="Buddy", age=3)
 
             dog_name = my_dog.name
             dog_age = my_dog.age
