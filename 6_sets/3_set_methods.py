@@ -11,3 +11,7 @@ print(my_set_2)
 my_set_3 = {30, 60, 90, 100, 200, 300}
 my_set_3.remove(200)
 print(my_set_3)
+
+my_set_4 = {30, 60, 90, 100, 200, 300}
+my_set_4.discard(30)
+print(my_set_4)
