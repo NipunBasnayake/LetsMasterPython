@@ -9,3 +9,6 @@ print(result_set)
 
 result_set = set1.intersection(set2)
 print(result_set)
+
+result_set = set1 & set2
+print(result_set)
