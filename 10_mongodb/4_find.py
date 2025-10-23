@@ -4,13 +4,18 @@ client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["my_database"]
 collection = db["customers"]
 
-# Step 1: Create a query to find documents where address is "Highway 37"
-query = {"address": "Highway 37"}
+# Example 1: Exact match query
+query_exact = {"address": "Highway 37"}
+result_exact = collection.find(query_exact)
 
-# Step 2: Execute the query
-result = collection.find(query)
+print("Documents with address 'Highway 37':")
+for doc in result_exact:
+    print(doc)
 
-# Step 3: Iterate over the cursor to print matching documents
-print("Matching documents:")
-for doc in result:
+# Example 2: Comparison query using $gt (greater than)
+query_compare = {"name": {"$gt": "John"}}
+result_compare = collection.find(query_compare)
+
+print("\nDocuments where name > 'John':")
+for doc in result_compare:
     print(doc)
