@@ -1,12 +1,7 @@
 import pymongo
 
-# Step 1: Connect to the MongoDB server
 client = pymongo.MongoClient("mongodb://localhost:27017/")
-
-# Step 2: Select the database
 db = client["my_database"]
-
-# Step 3: Select the collection
 collection = db["customers"]
 
 # Example 1: Exact match query
